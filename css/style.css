@@ -419,4 +419,39 @@ cursor:zoom-in;
 
     object-fit:contain;
 }
+#rotateHint{
+
+    display:none;
+
+    position:absolute;
+
+    top:75px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    background:rgba(0,0,0,.75);
+
+    color:white;
+
+    padding:12px 18px;
+
+    border-radius:12px;
+
+    font-size:14px;
+
+    text-align:center;
+
+    z-index:10001;
+}
+
+@media (max-width:900px) and (orientation:portrait){
+
+    #rotateHint{
+
+        display:block;
+    }
+
+}
 }
