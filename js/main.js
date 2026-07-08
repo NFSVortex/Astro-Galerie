@@ -1,5 +1,5 @@
 const galleryContainer = document.getElementById("galleryContainer");
-
+const fullscreenBtn = document.getElementById("fullscreenBtn");
 const lightbox = document.getElementById("lightbox");
 const lightboxImage = document.getElementById("lightbox-image");
 
@@ -73,5 +73,28 @@ lightbox.onclick = (event) => {
         lightbox.style.display = "none";
 
     }
+fullscreenBtn.addEventListener("click", async (event) => {
+
+    event.stopPropagation();
+
+    // Handy
+    if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+
+        lightbox.classList.toggle("mobile-fullscreen");
+        return;
+    }
+
+    // PC
+    if (!document.fullscreenElement) {
+
+        await lightboxImage.requestFullscreen();
+
+    } else {
+
+        await document.exitFullscreen();
+
+    }
+
+});
 
 }
