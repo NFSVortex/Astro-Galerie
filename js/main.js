@@ -5,7 +5,7 @@ const lightboxImage = document.getElementById("lightbox-image");
 
 const title = document.getElementById("title");
 const date = document.getElementById("date");
-const location = document.getElementById("location");
+const locationField = document.getElementById("location");
 const telescope = document.getElementById("telescope");
 const camera = document.getElementById("camera");
 const exposure = document.getElementById("exposure");
@@ -44,7 +44,7 @@ async function loadGallery() {
 
             title.textContent = image.title;
             date.textContent = image.date;
-            location.textContent = image.location;
+            locationField.textContent = image.location;
             telescope.textContent = image.telescope;
             camera.textContent = image.camera;
             exposure.textContent = image.exposure;
