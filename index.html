@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NFS Vortex Astrophotography</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav>
+
+        <div class="logo">
+            NFS Vortex
+        </div>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#gallery">Galerie</a></li>
+            <li><a href="#about">Über mich</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Hero -->
+
+    <header class="hero">
+
+        <div class="overlay">
+
+            <h1>NFS Vortex Astrophotography</h1>
+
+            <p>
+                Exploring the universe, one photon at a time.
+            </p>
+
+            <a href="#gallery" class="button">
+                Galerie entdecken
+            </a>
+
+        </div>
+
+    </header>
+
+    <!-- Galerie -->
+
+    <section id="gallery">
+
+        <h2>Meine Astrofotografie</h2>
+
+        <div class="gallery" id="galleryContainer"></div>
+
+    <div class="card"
+     data-title="NGC 7000 – Cygnus Wall"
+     data-date="08.07.2026"
+     data-location="Wintersweiler"
+     data-telescope="Askar 71F"
+     data-camera="ZWO ASI2600MC Pro"
+     data-exposure="6 Stunden"
+     data-focal="420 mm"
+     data-description="Die Cygnus Wall ist ein Teil des Nordamerika-Nebels und zählt zu den eindrucksvollsten Emissionsnebeln am Sommerhimmel.">
+
+    <img src="images/cygnus-wall.jpg" alt="Cygnus Wall">
+
+    <h3>NGC 7000 – Cygnus Wall</h3>
+
+</div>
+
+<div class="card"
+     data-title="M31 – Andromeda"
+     data-date="01.09.2025"
+     data-location="Wintersweiler"
+     data-telescope="Askar 71F"
+     data-camera="ZWO ASI2600MC Pro"
+     data-exposure="5 Stunden"
+     data-focal="420 mm"
+     data-description="Unsere Nachbargalaxie mit mehreren hundert Milliarden Sternen.">
+
+    <img src="images/andromeda.jpg" alt="Andromeda">
+
+    <h3>M31 – Andromeda</h3>
+
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- Über mich -->
+
+    <section id="about">
+
+        <h2>Über mich</h2>
+
+        <p style="text-align:center; max-width:900px; margin:auto; line-height:1.8; padding-bottom:100px;">
+
+            Willkommen auf meiner Astrofotografie-Seite!
+
+            Hier teile ich meine schönsten Aufnahmen des Nachthimmels,
+            die ich überwiegend im Dreiländereck Deutschland–Schweiz–Frankreich aufgenommen habe.
+            Jedes Bild besteht aus vielen einzelnen Belichtungen, die anschließend sorgfältig bearbeitet werden,
+            um faszinierende Details des Universums sichtbar zu machen.
+
+        </p>
+
+    </section>
+    <!-- Lightbox -->
+
+<div id="lightbox" class="lightbox">
+
+    <span id="close">&times;</span>
+
+    <div class="lightbox-content">
+
+        <img id="lightbox-image">
+
+        <div class="info">
+
+            <h2 id="info-title"></h2>
+
+            <p><strong>📅 Datum:</strong> <span id="info-date"></span></p>
+
+            <p><strong>📍 Ort:</strong> <span id="info-location"></span></p>
+
+            <p><strong>🔭 Teleskop:</strong> <span id="info-telescope"></span></p>
+
+            <p><strong>📷 Kamera:</strong> <span id="info-camera"></span></p>
+
+            <p><strong>⏱ Belichtung:</strong> <span id="info-exposure"></span></p>
+
+            <p><strong>🔍 Brennweite:</strong> <span id="info-focal"></span></p>
+
+            <br>
+
+            <p id="info-description"></p>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        © 2026 NFS Vortex Astrophotography
+
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
