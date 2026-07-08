@@ -1,0 +1,343 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:"Poppins",sans-serif;
+    background:#070b13;
+    color:white;
+}
+
+/* ================= NAVIGATION ================= */
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 60px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:rgba(0,0,0,.35);
+    backdrop-filter:blur(12px);
+
+    z-index:1000;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    letter-spacing:2px;
+}
+
+nav ul{
+    display:flex;
+    gap:35px;
+    list-style:none;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    transition:.25s;
+}
+
+nav a:hover{
+    color:#6bbcff;
+}
+
+/* ================= HERO ================= */
+
+#hero{
+
+    height:100vh;
+
+    background:url("../images/cygnus-wall.jpg") center center/cover;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.overlay{
+
+    width:100%;
+    height:100%;
+
+    background:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.75));
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    padding:20px;
+}
+
+.overlay h1{
+
+    font-size:68px;
+
+    margin-bottom:20px;
+
+    text-shadow:0 0 15px black;
+}
+
+.overlay p{
+
+    font-size:24px;
+
+    color:#ddd;
+
+    margin-bottom:40px;
+}
+
+.overlay a{
+
+    text-decoration:none;
+
+    color:white;
+
+    border:2px solid white;
+
+    padding:15px 38px;
+
+    border-radius:40px;
+
+    transition:.25s;
+}
+
+.overlay a:hover{
+
+    background:white;
+    color:#111;
+}
+
+/* ================= SECTIONS ================= */
+
+section{
+
+    padding:100px 8%;
+}
+
+section h2{
+
+    font-size:40px;
+
+    text-align:center;
+
+    margin-bottom:45px;
+}
+
+/* ================= GALERIE ================= */
+
+.gallery{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+}
+
+.card{
+
+    background:#111827;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 40px rgba(0,0,0,.45);
+}
+
+.card img{
+
+    width:100%;
+    height:260px;
+
+    object-fit:cover;
+
+    display:block;
+}
+
+.card h3{
+
+    padding:20px;
+
+    text-align:center;
+}
+
+/* ================= ABOUT ================= */
+
+#about{
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+}
+
+#about p{
+
+    color:#d5d5d5;
+
+    line-height:1.8;
+
+    font-size:18px;
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+
+    text-align:center;
+
+    padding:35px;
+
+    margin-top:70px;
+
+    color:#888;
+
+    border-top:1px solid #1d2434;
+}
+
+/* ================= LIGHTBOX ================= */
+
+#lightbox{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.94);
+
+    display:none;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:9999;
+
+    padding:40px;
+}
+
+.lightbox-content{
+
+    display:flex;
+
+    gap:40px;
+
+    max-width:1400px;
+
+    width:100%;
+}
+
+#lightbox img{
+
+    width:70%;
+
+    max-height:90vh;
+
+    object-fit:contain;
+
+    border-radius:12px;
+}
+
+.details{
+
+    width:30%;
+}
+
+.details h2{
+
+    margin-bottom:25px;
+
+    font-size:34px;
+}
+
+.details p{
+
+    margin-bottom:18px;
+
+    line-height:1.6;
+
+    color:#ddd;
+}
+
+#close{
+
+    position:absolute;
+
+    right:35px;
+
+    top:20px;
+
+    font-size:55px;
+
+    cursor:pointer;
+}
+
+/* ================= HANDY ================= */
+
+@media(max-width:900px){
+
+    nav{
+
+        padding:18px 20px;
+    }
+
+    nav ul{
+
+        gap:18px;
+    }
+
+    .overlay h1{
+
+        font-size:42px;
+    }
+
+    .overlay p{
+
+        font-size:18px;
+    }
+
+    .lightbox-content{
+
+        flex-direction:column;
+    }
+
+    #lightbox img{
+
+        width:100%;
+    }
+
+    .details{
+
+        width:100%;
+    }
+
+}
