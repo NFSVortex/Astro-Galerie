@@ -1,5 +1,15 @@
 [
     {
+        "title":"Todnauberg",
+        "image":"images/Todtnauberg",
+        "description":"Aufgenommen als ich eine Nacht in Todtnauberg verbracht habe.",
+        "date":"02.05.2025",
+        "location":"Todtnauberg",
+        "camera":"Canon PowerShot G7X Mark II",
+        "telescope":"/",
+        "exposure":"30 Sekunden"
+    },
+    {
         "title":"NGC 7000 – Cygnus Wall",
         "image":"images/cygnus-wall.jpg",
         "description":"Die Cygnus Wall ist ein Teil des Nordamerika-Nebels im Sternbild Schwan.",
