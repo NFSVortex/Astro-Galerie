@@ -425,11 +425,10 @@ cursor:zoom-in;
 
     position:absolute;
 
-    top:75px;
+    bottom:20px;
+    left:20px;
 
-    left:50%;
-
-    transform:translateX(-50%);
+    transform:none;
 
     background:rgba(0,0,0,.75);
 
@@ -444,6 +443,8 @@ cursor:zoom-in;
     text-align:center;
 
     z-index:10001;
+
+    max-width:calc(100% - 90px);
 }
 
 @media (max-width:900px) and (orientation:portrait){
@@ -454,15 +455,9 @@ cursor:zoom-in;
     }
 
 }
-    #fullscreenBtn{
+#fullscreenBtn{
 
-        top: auto;
-        bottom: 20px;
-        right: 20px;
-
-        padding: 12px 16px;
-        font-size: 16px;
-
-        z-index: 10002;
-    }
+    bottom:20px;
+    right:20px;
+}
 }
