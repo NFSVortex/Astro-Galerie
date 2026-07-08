@@ -39,6 +39,7 @@ async function loadGallery() {
         card.addEventListener("click", () => {
 
             lightbox.style.display = "flex";
+            document.body.style.overflow = "hidden";
 
             lightboxImage.src = image.image;
 
@@ -63,7 +64,8 @@ loadGallery();
 close.onclick = () => {
 
     lightbox.style.display = "none";
-
+    document.body.style.overflow = "hidden";
+    document.body.style.touchAction = "none";
 }
 
 lightbox.onclick = (event) => {
@@ -71,6 +73,8 @@ lightbox.onclick = (event) => {
     if (event.target === lightbox) {
 
         lightbox.style.display = "none";
+        document.body.style.overflow = "auto";
+        document.body.style.touchAction = "";
 
     }
 fullscreenBtn.addEventListener("click", async (event) => {
