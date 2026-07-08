@@ -13,9 +13,9 @@ html{
 }
 
 body{
-    background:#070b13;
-    color:white;
-    font-family:'Poppins',sans-serif;
+body {
+    background: red !important;
+}
 }
 
 /* =========================
