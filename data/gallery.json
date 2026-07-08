@@ -24,10 +24,45 @@
         "title":"M31 – Andromeda",
         "image":"images/andromeda.jpg",
         "description":"Unsere Nachbargalaxie mit mehreren hundert Milliarden Sternen.",
-        "date":"01.09.2025",
-        "location":"Wintersweiler",
-        "camera":"ZWO ASI2600MC Pro",
-        "telescope":"Askar 71F",
-        "exposure":"5 Stunden"
+        "date":"23.08.2025",
+        "location":"Efringen-Kirchen",
+        "camera":"ZWO 585 Mc",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"1 Stunde"
+    },
+    
+    {
+        "title":"M42 – Orionnebel",
+        "image":"images/orion.jpg",
+        "description":"Der Orionnebel ist eine der hellsten Nebelregionen am Nachthimmel.",
+        "date":"30.3.2025",
+        "location":"Efringen-Kirchen",
+        "camera":"ZWO 585 Mc",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"4 Stunden"
+    },
+
+    {
+        "title":"Abell 1656 – Coma Cluster",
+        "image":"images/Abell-1656.jpg",
+        "description":"Eine Ansammlung von Galaxien im Sternbild Haar der Berenike.",
+        "date":"23.03.2026",
+        "location":"Efringen-Kirchen",
+        "camera":"ZWO 585 Mc",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"7 Stunden"
+    },
+
+    {
+        "title":"NGC 6960 – Cirrus Nebel",
+        "image":"images/Witches-Broom.jpg",
+        "description":"Der Cirrusnebel ist ein Überrest einer Supernova im Sternbild Schwan.",
+        "date":"8.08.2025",
+        "location":"Efringen-Kirchen",
+        "camera":"ZWO 585 Mc",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"7 Stunden"
     }
+
+
 ]
