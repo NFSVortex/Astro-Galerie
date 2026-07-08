@@ -74,7 +74,7 @@ lightbox.onclick = (event) => {
 
         lightbox.style.display = "none";
         document.body.style.overflow = "auto";
-        document.body.style.touchAction = "";
+        document.body.style.touchAction = "auto";
 
     }
 fullscreenBtn.addEventListener("click", async (event) => {
