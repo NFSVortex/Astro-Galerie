@@ -64,8 +64,10 @@ loadGallery();
 close.onclick = () => {
 
     lightbox.style.display = "none";
-    document.body.style.overflow = "hidden";
-    document.body.style.touchAction = "none";
+
+    lightbox.classList.remove("mobile-fullscreen");
+    document.body.style.overflow = "auto";
+    document.body.style.touchAction = "auto";
 }
 
 lightbox.onclick = (event) => {
@@ -73,10 +75,12 @@ lightbox.onclick = (event) => {
     if (event.target === lightbox) {
 
         lightbox.style.display = "none";
+        lightbox.classList.remove("mobile-fullscreen");
         document.body.style.overflow = "auto";
-        document.body.style.touchAction = "auto";
+        document.documentElement.style.overflow = "auto";
 
     }
+    };
 fullscreenBtn.addEventListener("click", async (event) => {
 
     event.stopPropagation();
@@ -101,4 +105,4 @@ fullscreenBtn.addEventListener("click", async (event) => {
 
 });
 
-}
+
