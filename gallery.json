@@ -1,23 +1,23 @@
 [
     {
-        "title": "NGC 7000 - Cygnus Wall",
-        "image": "images/cygnus-wall.jpg",
-        "description": "Teil des Nordamerika-Nebels im Sternbild Schwan.",
-        "date": "24.06.2026",
-        "location": "Wintersweiler",
-        "camera": "ZWO ASI2600MC Pro",
-        "telescope": "Skywatcher 200PDS",
-        "exposure": "6 Stunden"
+        "title":"NGC 7000 – Cygnus Wall",
+        "image":"images/cygnus-wall.jpg",
+        "description":"Die Cygnus Wall ist ein Teil des Nordamerika-Nebels im Sternbild Schwan.",
+        "date":"08.07.2026",
+        "location":"Wintersweiler",
+        "camera":"ZWO ASI2600MC Pro",
+        "telescope":"Askar 71F",
+        "exposure":"6 Stunden"
     },
 
     {
-        "title": "M31 - Andromeda",
-        "image": "images/andromeda.jpg",
-        "description": "Unsere Nachbargalaxie.",
-        "date": "14.09.2025",
-        "location": "Wintersweiler",
-        "camera": "ZWO ASI2600MC Pro",
-        "telescope": "Skywatcher 200PDS",
-        "exposure": "4 Stunden"
+        "title":"M31 – Andromeda",
+        "image":"images/andromeda.jpg",
+        "description":"Unsere Nachbargalaxie mit mehreren hundert Milliarden Sternen.",
+        "date":"01.09.2025",
+        "location":"Wintersweiler",
+        "camera":"ZWO ASI2600MC Pro",
+        "telescope":"Askar 71F",
+        "exposure":"5 Stunden"
     }
 ]
