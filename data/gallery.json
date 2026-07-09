@@ -42,6 +42,27 @@
         "telescope":"Skywatcher 72ED",
         "exposure":"7,5 Stunden"
     },
+        {
+        "title":"M8&M20 – Lagunen- und Trifidnebel",
+        "image":"images/Lagoon.png",
+        "description":"Der Lagunen- und Trifidnebel sind Emissionsnebel im Sternbild Schütze.",
+        "date":"Mai 2025",
+        "location":"Todtnauberg",
+        "camera":"ZWO 585 Mc",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"1 Stunde"
+    },
+
+        {
+        "title":"NGC 2068- Casper der freundliche Geisternebel",
+        "image":"images/m78.jpg",
+        "description":"Der Geisternebel ist ein Reflexionsnebel im Sternbild Orion.",
+        "date":"März 2025",
+        "location":"Efringen-Kirchen",
+        "camera":"Canon 1200D",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"15 Stunden"
+    },
 
 
 
@@ -76,6 +97,16 @@
         "camera":"ZWO 585 Mc",
         "telescope":"Skywatcher 72ED",
         "exposure":"1 Stunde"
+    },
+        {
+        "title":"Messier 81 – Bodes Galaxie",
+        "image":"images/Bodes Galaxy.png",
+        "description":"Bodes Galaxie ist eine Spiralgalaxie im Sternbild Großer Bär.",
+        "date":"März 2025",
+        "location":"Efringen-Kirchen",
+        "camera":"Canon 1200D",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"10 Stunden"
     },
         {
         "title":"M33 – Dreiecksnebel",
