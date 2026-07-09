@@ -409,50 +409,31 @@ footer{
         z-index:10002;
     }
     }
+
+#rotateHint{
+    display: none;
+}
 /* Hinweis nur auf Handys im Hochformat */
-@media (max-width:900px) and (orientation:portrait){
+@media (max-width: 900px) and (orientation: portrait){
 
     #rotateHint{
-
-        display:block;
-
-        position:fixed;
-
-        bottom:20px;
-        right:90px;
-
-        left:auto;
-        top:auto;
-
-        transform:none;
-
-        background:rgba(0,0,0,.75);
-
-        color:white;
-
-        padding:8px 12px;
-
-        border-radius:10px;
-
-        font-size:11px;
-
-        line-height:1.3;
-
-        white-space:nowrap;
-
-        z-index:10001;
+        display: block;
     }
 
 }
 
-/* Im Querformat ausblenden */
-@media (max-width:900px) and (orientation:landscape){
+/* Sonst immer ausblenden */
+@media (min-width: 901px),
+       (max-width: 900px) and (orientation: landscape){
 
     #rotateHint{
-        display:none;
+        display: none;
     }
 
 }
+
+
+
 
 
 
