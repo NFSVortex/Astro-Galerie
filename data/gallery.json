@@ -32,6 +32,16 @@
         "telescope":"Skywatcher 72ED",
         "exposure":"4 Stunden"
     },
+    {
+        "title":"Sh2-279 Running Man Nebel",
+        "image":"images/running man.png",
+        "description":"Der Running Man Nebel ist ein Emissionsnebel im Sternbild Orion. Er ist Teil des Orionnebels.",
+        "date":"Oktober 2025",
+        "location":"Efringen-Kirchen",
+        "camera":"ZWO 585 Mc",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"2 Stunden"
+    },
         {
         "title":"NGC 2237- Rosettennebel",
         "image":"images/Rosettennebel.jpg",
@@ -62,6 +72,16 @@
         "camera":"Canon 1200D",
         "telescope":"Skywatcher 72ED",
         "exposure":"15 Stunden"
+    },
+    {
+        "title":"M45 – Plejaden",
+        "image":"images/Pleiaden.png",
+        "description":"Die Plejaden sind ein offener Sternhaufen mit Reflektionsnebel im Sternbild Stier.",
+        "date":"Oktober 2024",
+        "location":"Efringen-Kirchen",
+        "camera":"Canon 1200D",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"6 Stunden"
     },
 
 
