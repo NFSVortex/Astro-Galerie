@@ -20,16 +20,7 @@
         "exposure":"6 Stunden"
     },
 
-    {
-        "title":"M31 – Andromeda",
-        "image":"images/andromeda.jpg",
-        "description":"Unsere Nachbargalaxie mit mehreren hundert Milliarden Sternen.",
-        "date":"August 2025",
-        "location" : "Efringen-Kirchen",
-        "camera":"ZWO 585 Mc",
-        "telescope":"Skywatcher 72ED",
-        "exposure":"1 Stunde"
-    },
+
     
     {
         "title":"M42 – Orionnebel",
@@ -41,17 +32,18 @@
         "telescope":"Skywatcher 72ED",
         "exposure":"4 Stunden"
     },
-
-    {
-        "title":"Abell 1656 – Coma Cluster",
-        "image":"images/Abell1656.png",
-        "description":"Eine Ansammlung von Galaxien im Sternbild Haar der Berenike.",
-        "date":"März 2026",
+        {
+        "title":"NGC 2237- Rosettennebel",
+        "image":"images/Rosettennebel.jpg",
+        "description":"Der Rosettennebel ist ein Emissionsnebel im Sternbild Einhorn.",
+        "date":"März 2025",
         "location":"Efringen-Kirchen",
         "camera":"ZWO 585 Mc",
         "telescope":"Skywatcher 72ED",
-        "exposure":"7 Stunden"
-    },
+        "exposure":"7,5 Stunden"
+    }
+
+
 
     {
         "title":"NGC 6960 – Cirrus Nebel",
@@ -63,6 +55,47 @@
         "telescope":"Skywatcher 72ED",
         "exposure":"7 Stunden"
     }
+        {
+        "title":"M27- Hantelnebel",
+        "image":"images/Dumbell.png",
+        "description":"Der Hantelnebel ist ein planetarischer Nebel im Sternbild Fuchs.",
+        "date":"Juni 2026",
+        "location":"Efringen-Kirchen",
+        "camera":"ZWO 585 Mc",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"3 Stunden"
+    }
+    
 
+    {
+        "title":"M31 – Andromeda",
+        "image":"images/andromeda.jpg",
+        "description":"Unsere Nachbargalaxie mit mehreren hundert Milliarden Sternen.",
+        "date":"August 2025",
+        "location" : "Efringen-Kirchen",
+        "camera":"ZWO 585 Mc",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"1 Stunde"
+    },
+        {
+        "title":"M33 – Dreiecksnebel",
+        "image":"images/Triangel.png",
+        "description":"Die Dreiecksnebel ist eine Spiralgalaxie im Sternbild Dreieck.",
+        "date":"Dezember 2024",
+        "location":"Efringen-Kirchen",
+        "camera":"Canon 1200D",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"7,5 Stunden"
+    }
 
+        {
+        "title":"Abell 1656 – Coma Cluster",
+        "image":"images/Abell1656.png",
+        "description":"Eine Ansammlung von Galaxien im Sternbild Haar der Berenike.",
+        "date":"März 2026",
+        "location":"Efringen-Kirchen",
+        "camera":"ZWO 585 Mc",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"7 Stunden"
+    }
 ]
