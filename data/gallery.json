@@ -41,7 +41,7 @@
         "camera":"ZWO 585 Mc",
         "telescope":"Skywatcher 72ED",
         "exposure":"7,5 Stunden"
-    }
+    },
 
 
 
@@ -54,7 +54,7 @@
         "camera":"ZWO 585 Mc",
         "telescope":"Skywatcher 72ED",
         "exposure":"7 Stunden"
-    }
+    },
         {
         "title":"M27- Hantelnebel",
         "image":"images/Dumbell.png",
@@ -64,7 +64,7 @@
         "camera":"ZWO 585 Mc",
         "telescope":"Skywatcher 72ED",
         "exposure":"3 Stunden"
-    }
+    },
     
 
     {
@@ -86,7 +86,7 @@
         "camera":"Canon 1200D",
         "telescope":"Skywatcher 72ED",
         "exposure":"7,5 Stunden"
-    }
+    },
 
         {
         "title":"Abell 1656 – Coma Cluster",
