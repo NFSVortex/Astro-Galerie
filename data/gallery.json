@@ -32,6 +32,16 @@
         "telescope":"Skywatcher 72ED",
         "exposure":"4 Stunden"
     },
+        {
+        "title":"Barnard 33& NGC 2024 – Pferdekopf- und Flammennebel",
+        "image":"images/Horsehead.png",
+        "description":"Der Pferdekopfnebel ist ein dunkler Nebel im Sternbild Orion. Der Flammennebel ist ein Emissionsnebel ebenfalls im Sternbild Orion.",
+        "date":"Dezember 2024",
+        "location":"Efringen-Kirchen",
+        "camera":"ZWO 585 Mc",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"3 Stunden"
+    },
     {
         "title":"Sh2-279 Running Man Nebel",
         "image":"images/running man.png",
@@ -62,6 +72,37 @@
         "telescope":"Skywatcher 72ED",
         "exposure":"1 Stunde"
     },
+        {
+        "title":"M16 – Adlernebel",
+        "image":"images/Adler nah.png",
+        "description":"Der Adlernebel ist ein Emissionsnebel im Sternbild Schlange.",
+        "date":"Juni 2026",
+        "location":"Wintersweiler",
+        "camera":"ZWO 585 Mc",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"2 Stunden"
+    },
+        {
+        "title":"M16&M17 – Adler- und Omeganebel",
+        "image":"images/Adler Nebel.png",
+        "description":"Der Adler- und Omeganebel sind Emissionsnebel im Sternbild Schlange.",
+        "date":"August 2024",
+        "location":"Ulfborg, Dänemark",
+        "camera":"Canon 1200D",
+        "telescope":"Canon 55-250mm",
+        "exposure":"7 Stunden"
+    },
+        {
+        "title":"Ic 1805& Ic 1848 – Herz- und Seelennebel",
+        "image":"images/HerzSeelennebel.png",
+        "description":"Der Herz- und Seelennebel sind Emissionsnebel im Sternbild Kassiopeia.",
+        "date":"August 2024",
+        "location":"Ulfborg, Dänemark",
+        "camera":"Canon 1200D",
+        "telescope":"Canon 55-250mm",
+        "exposure":"1 Stunde"
+    },
+
 
         {
         "title":"NGC 2068- Casper der freundliche Geisternebel",
