@@ -13,6 +13,14 @@ const description = document.getElementById("description");
 
 const close = document.getElementById("close");
 
+function getThumbnail(path) {
+
+    const fileName = path.split("/").pop();
+
+    return `images/compressed/${fileName}`;
+
+}
+
 async function loadGallery() {
 
     const response = await fetch("data/gallery.json");
@@ -31,17 +39,29 @@ async function loadGallery() {
         const card = document.createElement("div");
         card.className = "card";
 
-        card.innerHTML = `
-            <img src="${image.image}" alt="${image.title}">
-            <h3>${image.title}</h3>
-        `;
+card.innerHTML = `
+    <img
+        src="${getThumbnail(image.image)}"
+        alt="${image.title}"
+        loading="lazy"
+        decoding="async">
+    <h3>${image.title}</h3>
+`;
 
         card.addEventListener("click", () => {
 
             lightbox.style.display = "flex";
             document.body.style.overflow = "hidden";
 
-            lightboxImage.src = image.image;
+            lightboxImage.src = "";
+
+                 const fullImage = new Image();
+
+                 fullImage.onload = () => {
+                lightboxImage.src = fullImage.src;
+};
+
+fullImage.src = image.image;
 
             title.textContent = image.title;
             date.textContent = image.date;
