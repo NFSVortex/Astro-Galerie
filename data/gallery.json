@@ -189,5 +189,16 @@
         "camera":"ZWO 585 Mc",
         "telescope":"Skywatcher 72ED",
         "exposure":"7 Stunden"
+    },
+
+        {
+        "title":"C/2023 A3 – Komet Tsuchinshan ATLAS",
+        "image":"images/Komet.png",
+        "description":"Der Komet Tsuchinshan ATLAS ist ein Komet, der im Jahr 2023 entdeckt wurde.",
+        "date":"Oktober 2024",
+        "location":"Efringen-Kirchen",
+        "camera":"Canon 1200D",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"5 minuten"
     }
 ]
