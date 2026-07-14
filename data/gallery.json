@@ -124,6 +124,16 @@
         "telescope":"Skywatcher 72ED",
         "exposure":"6 Stunden"
     },
+        {
+        "title":"Sh2-136 Der Geisternebel",
+        "image":"images/Ghost Nebula.png",
+        "description":"Der Geisternebel ist ein Reflexionsnebel im Sternbild Kepheus.",
+        "date":"Juli 2026",
+        "location":"Efringen-Kirchen",
+        "camera":"ZWO 585 Mc",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"7,5 Stunden"
+    },
 
 
 
@@ -146,6 +156,16 @@
         "camera":"ZWO 585 Mc",
         "telescope":"Skywatcher 72ED",
         "exposure":"3 Stunden"
+    },
+        {
+        "title":"M57 – Ringnebel",
+        "image":"images/ring.png",
+        "description":"Der Ringnebel ist ein planetarischer Nebel im Sternbild Leier.",
+        "date":"Juli 2026",
+        "location":"Efringen-Kirchen",
+        "camera":"ZWO 585 Mc",
+        "telescope":"Skywatcher 72ED",
+        "exposure":"20 minuten"
     },
     
 
@@ -193,7 +213,7 @@
 
         {
         "title":"C/2023 A3 – Komet Tsuchinshan ATLAS",
-        "image":"images/Komet.png",
+        "image":"images/komet.png",
         "description":"Der Komet Tsuchinshan ATLAS ist ein Komet, der im Jahr 2023 entdeckt wurde.",
         "date":"Oktober 2024",
         "location":"Efringen-Kirchen",
@@ -201,4 +221,5 @@
         "telescope":"Skywatcher 72ED",
         "exposure":"5 minuten"
     }
+    
 ]
