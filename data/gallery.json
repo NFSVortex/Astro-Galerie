@@ -2,7 +2,7 @@
     {
         "title":"Todtnauberg",
         "image":"images/Todtnauberg.jpg",
-        "description":"Aufgenommen als ich eine Nacht in Todtnauberg verbracht habe.",
+        "description":"Dieses shöne Bild zeigt mich und mein Astrofotografie-Setup in Todtnauberg. Dort oben hab ich in einer Nacht den Lagunen und Trifidnebel fotografiert.",
         "date":"Mai 2025",
         "location":"Todtnauberg",
         "camera":"Canon PowerShot G7X Mark II",
@@ -12,7 +12,8 @@
     {
         "title":"NGC 7000 – Cygnus Wall",
         "image":"images/cygnus-wall.jpg",
-        "description":"Die Cygnus Wall ist ein Teil des Nordamerika-Nebels im Sternbild Schwan.",
+        "description":"Die Cygnus Wall ist ein Teil des Nordamerika-Nebels im Sternbild Schwan. Er ist ein Emissionsnebel, der durch die Strahlung junger Sterne zum Leuchten angeregt wird. Er ist etwa 1.500 Lichtjahre von der Erde entfernt, 15-20 Lichtjahre breit und Teil eines größeren Sternentstehungsgebiets.
+         besonders schön ist hierbei die Struktur der Cygnus Wall, die durch die Wechselwirkung von Gas und Staub im Nebel entsteht.",
         "date":"Juli 2026",
         "location":"Wintersweiler",
         "camera":"ZWO ASI2600MC Pro",
@@ -25,7 +26,7 @@
     {
         "title":"M42 – Orionnebel",
         "image":"images/orion.jpg",
-        "description":"Der Orionnebel ist eine der hellsten Nebelregionen am Nachthimmel.",
+        "description":"Der Orionnebel ist ein Emissionsnebel im Sternbild Orion, zu finden ist er im sogenannten Schwert des Orions. Er ist einer der hellsten Nebel am Sternenhimmel und an wenig Lichtverschmutzten Himmeln sogar mit dem bloßen Auge Sichtbar. Er ist 25 Lichtjahre groß und 1300 Lichtjahre von uns entfernt. Er hat ein Gewicht von 2000 Sonnenmassen und ist die am nächt gelegene Region wo Sterne entstehen Links von dem Orionnebel befindet sich der Running man Nebel Sh2-179.",
         "date": "März 2025",
         "location":"Efringen-Kirchen",
         "camera":"ZWO 585 Mc",
@@ -35,7 +36,7 @@
         {
         "title":"Barnard 33& NGC 2024 – Pferdekopf- und Flammennebel",
         "image":"images/Horsehead.png",
-        "description":"Der Pferdekopfnebel ist ein dunkler Nebel im Sternbild Orion. Der Flammennebel ist ein Emissionsnebel ebenfalls im Sternbild Orion.",
+        "description":"Der Pferdekopf Nebel (Barnard 33) und der Flammennebel (NGC 2024) befinden sich im Sternbild Orion und sind zwei Nebel unterschiedlichen Types. Der Pferdekopfnebel ist ein Dunkelnebel der etwa 3,5 Lichtjahre gross ist, er leuchtet nicht selbst sondern erscheint als dunkle Silhouette vor dem rötlichen Emissionsnebel Ic 434. Er liegt direkt südlich des hellen Sterns Alnitak. Der Flammennebel ist ein Emissions und Reflexionsnebel, der etwa 12 Lichtjahre gross ist. Die auffällig dunklen Staubbänder erzeugen das Flammenartig aussehen des Nebels. Die beiden Nebel sind ungefähr 1350 Lichtjahre von uns entfernt. Der Pferdekopfnebel wurde 1888 von der schottischen Astronomin Williamina Fleming auf einer Fotoplatte entdeckt, der Flammennebel schon 1786 vom Astronomen Friedrich Wilhelm Herschel.",
         "date":"Dezember 2024",
         "location":"Efringen-Kirchen",
         "camera":"ZWO 585 Mc",
@@ -45,7 +46,7 @@
     {
         "title":"Sh2-279 Running Man Nebel",
         "image":"images/running man.png",
-        "description":"Der Running Man Nebel ist ein Emissionsnebel im Sternbild Orion. Er ist Teil des Orionnebels.",
+        "description":"Der Running-Man Nebel ist ein Reflexionsnebel im Sternbild Orion, direkt nördlich des Orionnebels M42. Seinen Namen verdankt er der dunklen Staubstruktur, die an die Silhouette eines laufenden Menschen erinnert. Der ist 1300 Lichtjahre von uns entfernt und etwa 4 Lichtjahre gross. Entdeckt wurde er 1786 vom deutsch-britischen Astronomen William Herschel.",
         "date":"Oktober 2025",
         "location":"Efringen-Kirchen",
         "camera":"ZWO 585 Mc",
@@ -55,7 +56,7 @@
         {
         "title":"NGC 2237- Rosettennebel",
         "image":"images/Rosettennebel.jpg",
-        "description":"Der Rosettennebel ist ein Emissionsnebel im Sternbild Einhorn.",
+        "description":"Der Rosettennebel, manchmal auch Totenkopfnebel genannt, ist ein Emissionsnebel im Sternbild Einhorn. Er ist circa 5000 Lichtjahre entfernt und hat einen Durchmesser von 100-130 Lichtjahren. Im Zentrum befindet sich der offene Sternhaufen NGC 2244, dessen helle Sterne den Nebel zum Leuchten anregen, dieser ist circa 2-5 Millionen Jahre alt. Er wurde 1690 vom englischen Astronomen John Flamsteed entdeckt, er konnte jedoch nur den Zentralen Sternenhaufen sehen, der Nebel selbst wurde erst später mit leistungsfähigeren Teleskopen entdeckt. Trotz seiner enormen größe von 1,3 Grad (der gesamte Himmel hat 180) ist er nicht mit dem blossen Auge erkennbar.",
         "date":"März 2025",
         "location":"Efringen-Kirchen",
         "camera":"ZWO 585 Mc",
@@ -65,7 +66,7 @@
         {
         "title":"M8&M20 – Lagunen- und Trifidnebel",
         "image":"images/Lagoon.png",
-        "description":"Der Lagunen- und Trifidnebel sind Emissionsnebel im Sternbild Schütze.",
+        "description":"Der Lagunennebel und der Trifidnebel gehören zu den schönsten Sommerobjekten am Himmel. Beide liegen im Sternbild Schütze und sind nur ca. 1,5 Grad voneinander entfernt, weshalb ich sie beide fotografiert habe. Der Lagunennebel links ist ein Emissionsenebel mit reflexionsnebelanteilen, er ist ca 4000 Lichtjahre von uns entfernt und hat einen grossen Durchmesser von 110 Lichtjahren. In ihm befindet sich der junge Sternhaufen NGC 6530. Er wurde 1654 vom italienischen Astronomen Giovanni Battista Hodierna beschrieben. Er ist an wenig Lichtverschmutzten Orten, wenn man weiss wonach man suchen muss, mit dem blossen Auge sichtbar. Der Trifidnebel rechts ist ein Emissions-, Reflexions- und Dunkelnebel der circa 5200 Lichtjahre von uns entfernt ist. Er hat einen Durchmesser von circa 40 Lichtjahren und ist einzigartig, da er drei verschiedene Nebeltypen in einem vereinbart. Das rote ist der Emissionsnebel, das blaue der Reflexionsnebel und das schwarze der Dunkelnebel. Entdeckt wurde er von Charles Messier 1764.",
         "date":"Mai 2025",
         "location":"Todtnauberg",
         "camera":"ZWO 585 Mc",
