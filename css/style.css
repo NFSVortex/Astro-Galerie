@@ -364,9 +364,18 @@ footer{
         border-radius:12px;
     }
 
-    .details{
-        width:100%;
-    }
+.details{
+
+    width:100%;
+
+    max-height:45vh;
+
+    overflow-y:auto;
+
+    -webkit-overflow-scrolling:touch;
+
+    padding-right:6px;
+}
 
 .mobile-fullscreen{
 
